@@ -1,0 +1,5 @@
+# 1. Initialize Husky (creates .husky folder)
+npx husky init
+
+# 2. Create the pre-commit hook
+echo "npx lint-staged" > .husky/pre-commit
